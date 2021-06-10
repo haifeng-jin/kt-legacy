@@ -19,7 +19,7 @@ from __future__ import absolute_import
 from setuptools import find_packages
 from setuptools import setup
 
-version = "1.0.0"
+version = "1.0.1"
 
 setup(
     name="kt-legacy",
@@ -28,4 +28,5 @@ setup(
     url="https://github.com/haifeng-jin/kt-legacy",
     author="Haifeng Jin",
     license="Apache License 2.0",
+    packages=find_packages(),
 )
