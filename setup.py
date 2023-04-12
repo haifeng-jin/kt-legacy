@@ -25,6 +25,7 @@ setup(
     name="kt-legacy",
     version=version,
     description="Legacy import names for Keras Tuner",
+    long_description="",
     url="https://github.com/haifeng-jin/kt-legacy",
     author="Haifeng Jin",
     license="Apache License 2.0",
