@@ -14,18 +14,21 @@
 
 """Setup script."""
 
-from __future__ import absolute_import
-
-from setuptools import find_packages
 from setuptools import setup
+from setuptools import find_packages
 
-version = "1.0.5"
+# read the contents of your README file
+from pathlib import Path
+this_directory = Path(__file__).parent
+long_description = (this_directory / "README.md").read_text()
 
+__version__ = "1.0.5"
 setup(
     name="kt-legacy",
-    version=version,
-    description="Legacy import names for Keras Tuner",
-    long_description="",
+    version=__version__,
+    description="Legacy import names for KerasTuner",
+    long_description=long_description,
+    long_description_content_type='text/markdown',
     url="https://github.com/haifeng-jin/kt-legacy",
     author="Haifeng Jin",
     license="Apache License 2.0",
