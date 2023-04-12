@@ -7,4 +7,4 @@ warnings.warn(
     stacklevel=2,
 )
 
-__version__ = "1.0.3"
+__version__ = "1.0.5"
